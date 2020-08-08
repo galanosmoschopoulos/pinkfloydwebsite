@@ -1,0 +1,288 @@
+body{
+    background-image: url("textures/background.jpg");
+    width:990px;
+    margin: auto;
+    border: 5px groove teal;
+    border-radius: 10px;
+}
+
+footer{
+    height: 194px;
+    padding: 15px;
+    background-color: black;
+    border-top: 4px groove teal;
+    color:ivory;
+    margin-top:50px;
+}
+
+#specialFooter{
+    height: 194px;
+    padding: 15px;
+    padding-top: 170px;
+    background-color: black;
+    color:ivory;
+}
+
+
+#membersTable{
+    border: 3px groove teal;
+    border-radius: 3px;
+    width:350px;
+    margin:auto;
+    margin-top:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    
+}
+
+#memberTexts{
+    margin:20px;
+}
+#membersTable table, #membersTable td{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+header{
+    height:240px;
+    background-color:black;
+    border-bottom: 4px groove teal;
+}
+#specialHeader{
+    height:240px;
+    background-color:black;
+    padding-bottom: 50px;
+}
+.albumTitle, .concertTitle, .memberTitle, #summaryTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-indent: 15px;
+    text-shadow: 0.05em 0.05em 0.1em teal;
+    text-decoration:underline overline;
+}
+
+.albumTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-indent: 15px;
+    text-shadow: 0.05em 0.05em 0.1em teal;
+    text-decoration:underline overline;
+    clear: both;
+    
+}
+
+.memberArticle{
+    //margin-top: 200px;
+}
+.memberTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-indent: 15px;
+    text-shadow: 0.05em 0.05em 0.1em teal;
+    text-decoration:underline overline;
+    text-align:center;
+    clear:both;
+}
+
+.albumParagraph, .memberParagraph, #fewwords{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 570;
+    line-height: 1.5em;
+}
+
+#pagemap, #albumPageNav{
+    color:blue;
+    background-color:#D8D8D8;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+footer{clear:both;}
+
+.songList{
+    font-style: oblique;
+    width: 300px;
+    float: left;
+    
+}
+#cmain{
+    background-color: black;
+    color:ivory;
+}
+
+.menuLi{
+    display: inline-block;
+    float:left;
+    background-color:black;
+    padding:5px;
+    border: 2px groove teal;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-shadow: 0.05px 0.05px 0.1px teal;
+    font-size:12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+#members{margin:45px;border: 4px solid teal;width:900px;}
+#barrett{float:right;border: 2px solid teal;margin-bottom:5px;background-color: slategray;}
+#barrett p{
+    display: inline;
+    position: relative;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.memberPhoto{
+    float:left;
+    border: 3px groove teal;
+    margin:10px;
+}
+
+#pageNav{
+    margin:auto;
+    width:800px;
+}
+#fewwords{margin:10px;}
+
+#membersTable a:link, #membersTable a:visited{
+    color:black;
+    text-decoration: none;
+}
+#membersTable a:hover{
+    color:teal;
+    text-decoration: none;
+}
+#membersTable a:active{
+    color:slategray;
+    text-decoration: none;
+}
+
+#pageMenu{
+    list-style-type: none;
+    margin: auto;
+}
+#pageMenu a:link{
+    text-decoration: none;
+}
+#pageMenu a:hover{
+    color: teal;
+    text-decoration: none;
+}
+#pageMenu a:active{
+    color:red;
+    text-decoration: none;
+}
+#communication_form textarea{
+    width:300px;
+    resize: vertical;
+    height: 300px;
+}
+#communication_form .textbox, #communication_form #dateinput{
+    width:300px;
+}
+
+#communication_form fieldset{
+    width: 435px;
+    background-color: slategrey;
+    border: 4px groove teal;
+    margin:auto;
+}
+#communication_form{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+#communication_form legend{
+    background-color: #252525;
+    color:ivory;
+    border: 4px groove teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-transform:capitalize;
+    font-variant:small-caps;
+}
+
+#communication_form #submit{
+    float: right;
+}
+#form_alternative
+{
+    display: none;
+    text-align: center;
+    margin-top:200px;
+    margin-bottom: 200px;
+}
+
+#form_alternative img{
+    border:2px solid black;
+}
+
+#followMe, #aboutMe{
+    width: 290px;
+    height: 170px;
+    border-right: 4px groove teal;
+    padding: 10px;
+    float:left;
+}
+#contactMe{
+    width: 290px;
+    height: 170px;
+    padding: 10px;
+    float:left;
+}
+
+#footermedia{
+    list-style-type: none;
+    margin:auto;
+}
+.footerLi{
+    display: inline-block;
+    float:left;
+    margin: 10px;
+}
+#footerHeading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    letter-spacing: 5px;
+    font-style: oblique;
+    text-decoration: underline overline;
+    text-shadow: 0.05em 0.05em 0.1em teal;
+}
+#footerText{
+    font-family: helvetica;
+    font-size: 10pt;
+}
+#contactButton{
+    background-color: #252525;
+    border: 2px groove teal;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-style: oblique;
+    font-size: 9pt;
+    width:100px;
+    text-align: center;
+    margin:auto;
+    
+}
+#contactButton a:link, #contactButton a:visited{
+    color:ivory;
+    text-decoration: none;
+}
+#contactButton a:hover{
+    color:teal;
+    text-decoration: none;
+}
+#contactButton a:active{
+    color:slategray;
+    text-decoration: none;
+}
+#footerLogo{
+    margin-left:45px;
+}
